@@ -55,8 +55,8 @@ NSOrderedDescending)
 
 - (void)startAnimations
 {
-   // UIImage *lauchImage = [HyHelper getLauchImage];
-    //self.maskView.image = lauchImage;
+    UIImage *lauchImage = [self getLauchImage];
+    self.maskView.image = lauchImage;
     
     self.backgroundColor = [UIColor clearColor];
     _imageView.transform = CGAffineTransformMakeScale(1, 1);
@@ -76,6 +76,21 @@ NSOrderedDescending)
     } completion:^(BOOL finished) {
         [self removeFromSuperview];
     }];
+}
+
+- (UIImage *)getLauchImage
+{
+    CGSize viewSize = [UIScreen mainScreen].bounds.size;
+    NSString *viewOrientation = @"Portrait";
+    NSString *launchImage = nil;
+    NSArray *imagesDict = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImages"];
+    for (NSDictionary *dict in imagesDict) {
+        CGSize imageSize = CGSizeFromString([dict objectForKey:@"UILaunchImageSize"]);
+        if (CGSizeEqualToSize(imageSize, viewSize) && [viewOrientation isEqualToString:[dict objectForKey:@"UILaunchImageOrientation"]]) {
+            launchImage = dict[@"UILaunchImageName"];
+        }
+    }
+    return [UIImage imageNamed:launchImage];
 }
 
 @end
