@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lobster 1.4.otf">
+            <string>Lobster1.4</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderContentView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home_header" translatesAutoresizingMaskIntoConstraints="NO" id="P6K-yy-DM6">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="badge_selected_header" translatesAutoresizingMaskIntoConstraints="NO" id="kM9-IQ-oqW">
+                    <rect key="frame" x="120" y="39" width="136" height="124"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PYU-XA-oxc">
+                    <rect key="frame" x="0.0" y="170" width="375" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Friday, Nov.25 -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJ2-Tq-i9T">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                            <fontDescription key="fontDescription" name="Lobster1.4" family="Lobster 1.4" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <activityIndicatorView opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="CjE-Ix-XTQ">
+                            <rect key="frame" x="177" y="10" width="20" height="20"/>
+                            <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="JJ2-Tq-i9T" secondAttribute="bottom" constant="10" id="4os-nX-Cy7"/>
+                        <constraint firstItem="JJ2-Tq-i9T" firstAttribute="leading" secondItem="PYU-XA-oxc" secondAttribute="leading" id="NFP-2c-ieu"/>
+                        <constraint firstAttribute="trailing" secondItem="JJ2-Tq-i9T" secondAttribute="trailing" id="T0D-AQ-kst"/>
+                        <constraint firstItem="JJ2-Tq-i9T" firstAttribute="top" secondItem="PYU-XA-oxc" secondAttribute="top" id="Tr0-Yo-FVa"/>
+                        <constraint firstItem="CjE-Ix-XTQ" firstAttribute="centerX" secondItem="PYU-XA-oxc" secondAttribute="centerX" id="nf5-Ed-EQg"/>
+                        <constraint firstItem="CjE-Ix-XTQ" firstAttribute="centerY" secondItem="PYU-XA-oxc" secondAttribute="centerY" constant="-5" id="plP-Ct-QZa"/>
+                        <constraint firstAttribute="height" constant="50" id="sTT-Tc-k9W"/>
+                    </constraints>
+                </view>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2h-gH-Ive">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="P6K-yy-DM6" secondAttribute="bottom" id="2eo-9x-qEk"/>
+                <constraint firstAttribute="bottom" secondItem="PYU-XA-oxc" secondAttribute="bottom" id="9Uv-ML-e3n"/>
+                <constraint firstItem="kM9-IQ-oqW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9my-zu-i2T"/>
+                <constraint firstAttribute="trailing" secondItem="P6K-yy-DM6" secondAttribute="trailing" id="G16-W7-ncR"/>
+                <constraint firstItem="b2h-gH-Ive" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="H2s-Kw-0S7"/>
+                <constraint firstAttribute="bottom" secondItem="b2h-gH-Ive" secondAttribute="bottom" id="H5o-OV-t9Q"/>
+                <constraint firstItem="P6K-yy-DM6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LVS-8A-iUo"/>
+                <constraint firstItem="b2h-gH-Ive" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Q53-oZ-9tq"/>
+                <constraint firstItem="kM9-IQ-oqW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-9.5" id="SPe-Yn-XIf"/>
+                <constraint firstAttribute="trailing" secondItem="PYU-XA-oxc" secondAttribute="trailing" id="jK5-Og-ObE"/>
+                <constraint firstItem="P6K-yy-DM6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="mRt-Oh-hDj"/>
+                <constraint firstAttribute="trailing" secondItem="b2h-gH-Ive" secondAttribute="trailing" id="mpj-Jd-qpV"/>
+                <constraint firstItem="PYU-XA-oxc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sFJ-iY-y85"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="activityIndicatorView" destination="CjE-Ix-XTQ" id="DSK-qV-PBn"/>
+                <outlet property="maskView" destination="b2h-gH-Ive" id="rOT-cp-ph1"/>
+                <outlet property="titleLabel" destination="JJ2-Tq-i9T" id="1Am-Ew-4MH"/>
+            </connections>
+            <point key="canvasLocation" x="-191" y="-195"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Home_header" width="1242" height="720"/>
+        <image name="badge_selected_header" width="136" height="124"/>
+    </resources>
+</document>
