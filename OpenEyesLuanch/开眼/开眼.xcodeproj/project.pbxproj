@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380795A81E8A09A6005EC7D4 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 380795A61E8A09A6005EC7D4 /* HomeCell.m */; };
+		380795A91E8A09A6005EC7D4 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 380795A71E8A09A6005EC7D4 /* HomeCell.xib */; };
+		384512A71E8A36EA0020D5EB /* VideoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512A61E8A36EA0020D5EB /* VideoDetailsViewController.m */; };
+		384512C31E8A3D700020D5EB /* HyInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512AF1E8A3D700020D5EB /* HyInteractiveTransition.m */; };
+		384512C41E8A3D700020D5EB /* UIView+AnimationPracticalMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512B21E8A3D700020D5EB /* UIView+AnimationPracticalMethod.m */; };
+		384512C51E8A3D700020D5EB /* UIView+AnimationProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512B41E8A3D700020D5EB /* UIView+AnimationProperty.m */; };
+		384512C61E8A3D700020D5EB /* UIView+ConvenientMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512B61E8A3D700020D5EB /* UIView+ConvenientMethod.m */; };
+		384512C71E8A3D700020D5EB /* UIView+FontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512B81E8A3D700020D5EB /* UIView+FontSize.m */; };
+		384512C81E8A3D700020D5EB /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512BA1E8A3D700020D5EB /* UIView+GlowView.m */; };
+		384512C91E8A3D700020D5EB /* UIView+ScreensShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512BC1E8A3D700020D5EB /* UIView+ScreensShot.m */; };
+		384512CA1E8A3D700020D5EB /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512BE1E8A3D700020D5EB /* UIView+SetRect.m */; };
+		384512CB1E8A3D700020D5EB /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512C01E8A3D700020D5EB /* UIView+Shake.m */; };
+		384512CC1E8A3D700020D5EB /* UIView+UserInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512C21E8A3D700020D5EB /* UIView+UserInteraction.m */; };
+		384512D41E8A3DE60020D5EB /* HyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512CF1E8A3DE60020D5EB /* HyHelper.m */; };
+		384512D51E8A3DE60020D5EB /* LxVolumeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512D11E8A3DE60020D5EB /* LxVolumeManager.m */; };
+		384512D61E8A3DE60020D5EB /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 384512D31E8A3DE60020D5EB /* UIImage+ImageEffects.m */; };
+		384513DC1E8A40D40020D5EB /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 384513DB1E8A40D40020D5EB /* FXBlurView.m */; };
 		38842B631E8394C90058B8AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38842B621E8394C90058B8AF /* main.m */; };
 		38842B6C1E8394C90058B8AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38842B6A1E8394C90058B8AF /* Main.storyboard */; };
 		38842B6E1E8394C90058B8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38842B6D1E8394C90058B8AF /* Assets.xcassets */; };
@@ -66,6 +83,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		380795A51E8A09A6005EC7D4 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		380795A61E8A09A6005EC7D4 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		380795A71E8A09A6005EC7D4 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		384512A51E8A36EA0020D5EB /* VideoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailsViewController.h; sourceTree = "<group>"; };
+		384512A61E8A36EA0020D5EB /* VideoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailsViewController.m; sourceTree = "<group>"; };
+		384512AE1E8A3D700020D5EB /* HyInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyInteractiveTransition.h; sourceTree = "<group>"; };
+		384512AF1E8A3D700020D5EB /* HyInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyInteractiveTransition.m; sourceTree = "<group>"; };
+		384512B11E8A3D700020D5EB /* UIView+AnimationPracticalMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationPracticalMethod.h"; sourceTree = "<group>"; };
+		384512B21E8A3D700020D5EB /* UIView+AnimationPracticalMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationPracticalMethod.m"; sourceTree = "<group>"; };
+		384512B31E8A3D700020D5EB /* UIView+AnimationProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationProperty.h"; sourceTree = "<group>"; };
+		384512B41E8A3D700020D5EB /* UIView+AnimationProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationProperty.m"; sourceTree = "<group>"; };
+		384512B51E8A3D700020D5EB /* UIView+ConvenientMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ConvenientMethod.h"; sourceTree = "<group>"; };
+		384512B61E8A3D700020D5EB /* UIView+ConvenientMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ConvenientMethod.m"; sourceTree = "<group>"; };
+		384512B71E8A3D700020D5EB /* UIView+FontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FontSize.h"; sourceTree = "<group>"; };
+		384512B81E8A3D700020D5EB /* UIView+FontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontSize.m"; sourceTree = "<group>"; };
+		384512B91E8A3D700020D5EB /* UIView+GlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GlowView.h"; sourceTree = "<group>"; };
+		384512BA1E8A3D700020D5EB /* UIView+GlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GlowView.m"; sourceTree = "<group>"; };
+		384512BB1E8A3D700020D5EB /* UIView+ScreensShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScreensShot.h"; sourceTree = "<group>"; };
+		384512BC1E8A3D700020D5EB /* UIView+ScreensShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScreensShot.m"; sourceTree = "<group>"; };
+		384512BD1E8A3D700020D5EB /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		384512BE1E8A3D700020D5EB /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		384512BF1E8A3D700020D5EB /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
+		384512C01E8A3D700020D5EB /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
+		384512C11E8A3D700020D5EB /* UIView+UserInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UserInteraction.h"; sourceTree = "<group>"; };
+		384512C21E8A3D700020D5EB /* UIView+UserInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UserInteraction.m"; sourceTree = "<group>"; };
+		384512CE1E8A3DE60020D5EB /* HyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyHelper.h; sourceTree = "<group>"; };
+		384512CF1E8A3DE60020D5EB /* HyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyHelper.m; sourceTree = "<group>"; };
+		384512D01E8A3DE60020D5EB /* LxVolumeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxVolumeManager.h; sourceTree = "<group>"; };
+		384512D11E8A3DE60020D5EB /* LxVolumeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxVolumeManager.m; sourceTree = "<group>"; };
+		384512D21E8A3DE60020D5EB /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		384512D31E8A3DE60020D5EB /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		384513DA1E8A40D40020D5EB /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		384513DB1E8A40D40020D5EB /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
 		38842B5E1E8394C90058B8AF /* 开眼.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "开眼.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38842B621E8394C90058B8AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38842B6B1E8394C90058B8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -165,6 +215,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		384512AC1E8A3D700020D5EB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				384512AD1E8A3D700020D5EB /* HyInteractiveTransition */,
+				384512B01E8A3D700020D5EB /* UI-Component */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		384512AD1E8A3D700020D5EB /* HyInteractiveTransition */ = {
+			isa = PBXGroup;
+			children = (
+				384512AE1E8A3D700020D5EB /* HyInteractiveTransition.h */,
+				384512AF1E8A3D700020D5EB /* HyInteractiveTransition.m */,
+			);
+			path = HyInteractiveTransition;
+			sourceTree = "<group>";
+		};
+		384512B01E8A3D700020D5EB /* UI-Component */ = {
+			isa = PBXGroup;
+			children = (
+				384512B11E8A3D700020D5EB /* UIView+AnimationPracticalMethod.h */,
+				384512B21E8A3D700020D5EB /* UIView+AnimationPracticalMethod.m */,
+				384512B31E8A3D700020D5EB /* UIView+AnimationProperty.h */,
+				384512B41E8A3D700020D5EB /* UIView+AnimationProperty.m */,
+				384512B51E8A3D700020D5EB /* UIView+ConvenientMethod.h */,
+				384512B61E8A3D700020D5EB /* UIView+ConvenientMethod.m */,
+				384512B71E8A3D700020D5EB /* UIView+FontSize.h */,
+				384512B81E8A3D700020D5EB /* UIView+FontSize.m */,
+				384512B91E8A3D700020D5EB /* UIView+GlowView.h */,
+				384512BA1E8A3D700020D5EB /* UIView+GlowView.m */,
+				384512BB1E8A3D700020D5EB /* UIView+ScreensShot.h */,
+				384512BC1E8A3D700020D5EB /* UIView+ScreensShot.m */,
+				384512BD1E8A3D700020D5EB /* UIView+SetRect.h */,
+				384512BE1E8A3D700020D5EB /* UIView+SetRect.m */,
+				384512BF1E8A3D700020D5EB /* UIView+Shake.h */,
+				384512C01E8A3D700020D5EB /* UIView+Shake.m */,
+				384512C11E8A3D700020D5EB /* UIView+UserInteraction.h */,
+				384512C21E8A3D700020D5EB /* UIView+UserInteraction.m */,
+			);
+			path = "UI-Component";
+			sourceTree = "<group>";
+		};
+		384512CD1E8A3DE60020D5EB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				384512CE1E8A3DE60020D5EB /* HyHelper.h */,
+				384512CF1E8A3DE60020D5EB /* HyHelper.m */,
+				384512D01E8A3DE60020D5EB /* LxVolumeManager.h */,
+				384512D11E8A3DE60020D5EB /* LxVolumeManager.m */,
+				384512D21E8A3DE60020D5EB /* UIImage+ImageEffects.h */,
+				384512D31E8A3DE60020D5EB /* UIImage+ImageEffects.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		384513D91E8A40D40020D5EB /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				384513DA1E8A40D40020D5EB /* FXBlurView.h */,
+				384513DB1E8A40D40020D5EB /* FXBlurView.m */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
 		38842B551E8394C90058B8AF = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +346,8 @@
 		3895220A1E88E0B0005764E0 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				384512CD1E8A3DE60020D5EB /* Helper */,
+				384512AC1E8A3D700020D5EB /* Tools */,
 				3895221F1E88EB59005764E0 /* Lib */,
 				389522181E88E106005764E0 /* Home */,
 				3895220B1E88E0B0005764E0 /* LaunchView */,
@@ -275,6 +392,8 @@
 			children = (
 				3895221C1E88E12D005764E0 /* HomeController.h */,
 				3895221D1E88E12D005764E0 /* HomeController.m */,
+				384512A51E8A36EA0020D5EB /* VideoDetailsViewController.h */,
+				384512A61E8A36EA0020D5EB /* VideoDetailsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -292,6 +411,9 @@
 				3895226A1E88F138005764E0 /* HeaderContentView.h */,
 				3895226B1E88F138005764E0 /* HeaderContentView.m */,
 				3895226D1E88F142005764E0 /* HeaderContentView.xib */,
+				380795A51E8A09A6005EC7D4 /* HomeCell.h */,
+				380795A61E8A09A6005EC7D4 /* HomeCell.m */,
+				380795A71E8A09A6005EC7D4 /* HomeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -299,6 +421,7 @@
 		3895221F1E88EB59005764E0 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				384513D91E8A40D40020D5EB /* FXBlurView */,
 				389522631E88EBE5005764E0 /* MJRefreshDIY */,
 				389522201E88EB63005764E0 /* MJRefresh */,
 			);
@@ -525,6 +648,7 @@
 				389522151E88E0B0005764E0 /* LaunchView.xib in Resources */,
 				38842B991E8395DA0058B8AF /* FZLTXIHJW--GB1-0.TTF in Resources */,
 				3895226E1E88F142005764E0 /* HeaderContentView.xib in Resources */,
+				380795A91E8A09A6005EC7D4 /* HomeCell.xib in Resources */,
 				38842B9A1E8395DA0058B8AF /* FZLTZCHJW--GB1-0.TTF in Resources */,
 				3895225D1E88EB63005764E0 /* MJRefresh.bundle in Resources */,
 			);
@@ -553,6 +677,8 @@
 			files = (
 				3895225B1E88EB63005764E0 /* MJRefreshNormalHeader.m in Sources */,
 				3895225F1E88EB63005764E0 /* NSBundle+MJRefresh.m in Sources */,
+				384512D61E8A3DE60020D5EB /* UIImage+ImageEffects.m in Sources */,
+				384512C61E8A3D700020D5EB /* UIView+ConvenientMethod.m in Sources */,
 				389522691E88EBE5005764E0 /* MJDIYHeader.m in Sources */,
 				3895225C1E88EB63005764E0 /* MJRefreshStateHeader.m in Sources */,
 				3895225A1E88EB63005764E0 /* MJRefreshGifHeader.m in Sources */,
@@ -562,7 +688,11 @@
 				389522621E88EB63005764E0 /* UIView+MJExtension.m in Sources */,
 				389522681E88EBE5005764E0 /* MJDIYAutoFooter.m in Sources */,
 				389522541E88EB63005764E0 /* MJRefreshAutoGifFooter.m in Sources */,
+				384512C91E8A3D700020D5EB /* UIView+ScreensShot.m in Sources */,
+				384513DC1E8A40D40020D5EB /* FXBlurView.m in Sources */,
+				384512CC1E8A3D700020D5EB /* UIView+UserInteraction.m in Sources */,
 				389522601E88EB63005764E0 /* UIScrollView+MJExtension.m in Sources */,
+				384512C51E8A3D700020D5EB /* UIView+AnimationProperty.m in Sources */,
 				389522501E88EB63005764E0 /* MJRefreshBackFooter.m in Sources */,
 				38842B631E8394C90058B8AF /* main.m in Sources */,
 				389522141E88E0B0005764E0 /* LaunchView.m in Sources */,
@@ -572,12 +702,22 @@
 				389522531E88EB63005764E0 /* MJRefreshHeader.m in Sources */,
 				389522561E88EB63005764E0 /* MJRefreshAutoStateFooter.m in Sources */,
 				3895226C1E88F138005764E0 /* HeaderContentView.m in Sources */,
+				384512C81E8A3D700020D5EB /* UIView+GlowView.m in Sources */,
 				389522521E88EB63005764E0 /* MJRefreshFooter.m in Sources */,
 				389522611E88EB63005764E0 /* UIScrollView+MJRefresh.m in Sources */,
 				389522591E88EB63005764E0 /* MJRefreshBackStateFooter.m in Sources */,
+				384512CA1E8A3D700020D5EB /* UIView+SetRect.m in Sources */,
+				384512D41E8A3DE60020D5EB /* HyHelper.m in Sources */,
 				3895221E1E88E12D005764E0 /* HomeController.m in Sources */,
 				3895224F1E88EB63005764E0 /* MJRefreshAutoFooter.m in Sources */,
+				384512C71E8A3D700020D5EB /* UIView+FontSize.m in Sources */,
+				380795A81E8A09A6005EC7D4 /* HomeCell.m in Sources */,
+				384512C41E8A3D700020D5EB /* UIView+AnimationPracticalMethod.m in Sources */,
 				389522171E88E0B0005764E0 /* TBController.m in Sources */,
+				384512D51E8A3DE60020D5EB /* LxVolumeManager.m in Sources */,
+				384512CB1E8A3D700020D5EB /* UIView+Shake.m in Sources */,
+				384512C31E8A3D700020D5EB /* HyInteractiveTransition.m in Sources */,
+				384512A71E8A36EA0020D5EB /* VideoDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
